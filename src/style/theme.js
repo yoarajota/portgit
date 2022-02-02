@@ -4,12 +4,12 @@ import { extendTheme } from '@chakra-ui/react';
 export const theme = extendTheme({
     colors: {
         color: {
-            'light': '#f0f6fc'
+            'light': '#f0f6fc',
+            'dark': '#0d1117'
         }
     },
     fonts: {
-        heading: 'Montserrat, sans-serif',
-        body: 'Montserrat, sans-serif',
+
     },
     styles: {
         global: {
