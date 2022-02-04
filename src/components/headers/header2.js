@@ -58,10 +58,10 @@ const Header2 = () => {
                         </Icon>
                     </Box>
                     <Box display='flex' position='relative'>
-                            <Image bg='#2c3139' src={Pfp} borderRadius='full' w='20px' h='20px'>
-                            </Image>
-                            <Box bg='lightblue' border='2px solid #161b22' w='12px' h='12px' position='initial' top='-5px' left='13px' borderRadius='full' position='absolute'></Box>
-                        </Box>
+                        <Image bg='#2c3139' src={Pfp} borderRadius='full' w='20px' h='20px'>
+                        </Image>
+                        <Box bg='lightblue' border='2px solid #161b22' w='12px' h='12px' position='initial' top='-5px' left='13px' borderRadius='full' position='absolute'></Box>
+                    </Box>
                 </Box>
             </Box>
 
