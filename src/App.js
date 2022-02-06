@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 import Header1 from './components/headers/header1';
 import Header2 from './components/headers/header2';
 import HeaderMobo from './components/headers/headermobo';
@@ -11,6 +11,11 @@ function App() {
 
   const [isLargerThan768] = useMediaQuery('(min-width: 768px)')
 
+
+  const [BgColor, setBgColor] = useState( )
+  const ChangeBgColor = () => {
+    setBgColor(isLargerThan768 ? 'white' : 'black')
+  }
 
   return (
     <>

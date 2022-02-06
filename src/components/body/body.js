@@ -1,13 +1,18 @@
-import { Box, Heading, Text, Image, Icon, useMediaQuery, Grid, GridItem } from "@chakra-ui/react"
+import { Box, Heading, Text, Image, Icon, useMediaQuery, Grid, GridItem, useMediaQuerry } from "@chakra-ui/react"
 import Pfp from '../../images/pfp.png'
 
 
 const Body = () => {
 
+    const [isLargerThan1012] = useMediaQuery('(min-width: 1012px)')
+    const [isLargerThan768] = useMediaQuery('(min-width: 768px)')
+    const [isLargerThan544] = useMediaQuery('(min-width: 544px)')
+
+
     return (
-        <Grid m='0 auto' maxW='1280px' justifyContent='center' templateColumns='repeat(4, 1fr)'> 
+        <Grid m='0 auto' maxW='1280px' justifyContent='center' templateColumns='repeat(4, 1fr)'>
             <GridItem maxW='296px'>
-                <Box>
+                <Box colSpan={isLargerThan768 ? '1' : '4'}>
                     <Image top='-25px' src={Pfp} borderRadius='full' border='1px solid rgba(255, 255, 255, 0.3)' />
                 </Box>
                 <Box top='265px' w='100%'>
@@ -41,8 +46,10 @@ const Body = () => {
                     </Box>
                 </Box>
             </GridItem>
-            <GridItem bg='white' maxWidth='896px' p='24px' colSpan='3'>
-                A
+            <GridItem maxWidth='896px' p='24px'  colSpan={isLargerThan768 ? '3' : '4'}>
+                <Box border='1 solid rgba(255, 255, 255, 1)'>
+                    a
+                </Box>
             </GridItem>
         </Grid>
     )
