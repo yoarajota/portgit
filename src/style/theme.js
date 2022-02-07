@@ -2,8 +2,6 @@ import { extendTheme, useMediaQuery } from '@chakra-ui/react';
 
 export const theme = extendTheme({
     
-
-
     colors: {
         color: {
             'light': '#f0f6fc',
@@ -12,7 +10,7 @@ export const theme = extendTheme({
         }
     },
     fonts: {
-
+        body: 'SegoeUI',
     },
     styles: {
         global: {

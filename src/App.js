@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header1 from './components/headers/header1';
 import Header2 from './components/headers/header2';
 import HeaderMobo from './components/headers/headermobo';
@@ -10,19 +10,26 @@ import Navbuttons from './components/body/navbuttons';
 function App() {
 
   const [isLargerThan768] = useMediaQuery('(min-width: 768px)')
+  const [isLargerThan544] = useMediaQuery('(min-width: 544px)')
+  
+  const [bgColor, setBgColor] = useState('#161b22')
+  useEffect(() => {
+    if (isLargerThan544) {
+      setBgColor('#0d1117')
+    }
 
-
-  const [BgColor, setBgColor] = useState( )
-  const ChangeBgColor = () => {
-    setBgColor(isLargerThan768 ? 'white' : 'black')
-  }
+    else {
+      setBgColor('#161b22')
+    }
+  }, [isLargerThan544]) 
 
   return (
-    <>
+    <body style={{backgroundColor: bgColor}}>
       {isLargerThan768 ? <Header2 /> : <Header1 />}
-      <Navbuttons></Navbuttons>
+      {isLargerThan768 ? <Navbuttons /> : ''}
+      {isLargerThan768 ? '' : <HeaderMobo />}
       <Body></Body>
-    </>
+    </body>
   );
 }
 
