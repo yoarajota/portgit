@@ -47,7 +47,7 @@ const Body = () => {
                                 <Text color='rgba(255, 255, 255, 0.8)'>html, css, javascript, flutter, dart, react - js </Text>
                             </Box>
                         </Box>
-                        <Text align="right" color='rgba(255, 255, 255, 0.8)'>university; -//-, 0% </Text>
+                        <Text align="right" color='rgba(255, 255, 255, 0.7)'>university; -//-, 0% </Text>
                     </Box>
                 </Box>
             </GridItem>
