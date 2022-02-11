@@ -7,7 +7,7 @@ const Headermobo = () => {
 
 
     return (
-        <Box p='0 16px' bg={isLargerThan543 ? 'color.dark' : 'bg'}>
+        <Box p='0 16px' m='0 auto'>
             <Box display='flex' h='auto' alignItems='center' m='0px 0px 24px 0px'>
                 <Box w='20%' maxW='120px' verticalAlign='center' position='relative' >
                     <Image src={Pfp} borderRadius='full' w='90%' maxW='119px' border='1px solid rgba(255, 255, 255, 0.3)' />
@@ -21,7 +21,7 @@ const Headermobo = () => {
                     </Text>
                 </Box>
             </Box>
-            <Box display='flex' alignItems='center' m='8px 0 0 0' p='4px 8px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
+            <Box display='flex' alignItems='center'  m='8px auto 0 auto' p='4px 8px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
                 <Box w='30px'>
                     <g-emoji alias="white_circle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26aa.png">⚪</g-emoji>
                 </Box>
