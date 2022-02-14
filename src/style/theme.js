@@ -1,4 +1,4 @@
-import { extendTheme, useMediaQuery } from '@chakra-ui/react';
+import { extendTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme({
     
@@ -10,7 +10,7 @@ export const theme = extendTheme({
         }
     },
     fonts: {
-        body: 'SegoeUI',
+        body: '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"',
     },
     styles: {
         global: {

@@ -21,7 +21,7 @@ const Headermobo = () => {
                     </Text>
                 </Box>
             </Box>
-            <Box display='flex' alignItems='center'  m='8px auto 0 auto' p='4px 8px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
+            <Box display='flex' alignItems='center' w='' m='8px auto 0 auto' p='4px 8px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
                 <Box w='30px'>
                     <g-emoji alias="white_circle" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26aa.png">⚪</g-emoji>
                 </Box>

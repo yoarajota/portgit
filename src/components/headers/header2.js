@@ -14,7 +14,7 @@ const Header2 = () => {
                 </Box>
                 <Box>
                     <Box display='flex' w='272px' alignItems='center' border='1px solid rgba(255, 255, 255, 0.3)' borderRadius='7px' bg='color.dark' backgroundClip='padding-box'>
-                        <Input border='none' h='28px' fontSize='0.9rem' focusBorderColor='none' color='color.light' fontWeight='600' placeholder='Search or jump to...' />
+                        <Input border='none' h='28px' fontSize='0.9rem' borderColor='none' color='color.light' fontWeight='600' fontSize='14px' placeholder='Search or jump to...' />
                         <Icon viewBox="0 -1.5 24 24" boxSize={7} >
                             <path fill="none" stroke="#979A9C" opacity=".7" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path>
                             <path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path>
@@ -24,22 +24,22 @@ const Header2 = () => {
                 <Box>
                     <Box m='0 0 0 15px' display='flex'>
                         <Box className='Pulls' marginRight='16px'>
-                            <Text color='color.light' fontWeight='600' sx={{ '.Pulls:hover &': { opacity: '0.7' } }}>
-                                Pulls
+                            <Text color='color.light' fontSize='14px' fontWeight='600' sx={{ '.Pulls:hover &': { opacity: '0.7' } }}>
+                                Pull requests
                             </Text>
                         </Box>
                         <Box className='Issues' marginRight='16px'>
-                            <Text color='color.light' fontWeight='600' sx={{ '.Issues:hover &': { opacity: '0.7' } }}>
+                            <Text color='color.light' fontSize='14px' fontWeight='600' sx={{ '.Issues:hover &': { opacity: '0.7' } }}>
                                 Issues
                             </Text>
                         </Box>
                         <Box className='Marketplace' marginRight='16px'>
-                            <Text color='color.light' fontWeight='600' sx={{ '.Marketplace:hover &': { opacity: '0.7' } }}>
+                            <Text color='color.light' fontSize='14px' fontWeight='600' sx={{ '.Marketplace:hover &': { opacity: '0.7' } }}>
                                 Marketplace
                             </Text>
                         </Box>
                         <Box className='Explore' marginRight='16px'>
-                            <Text color='color.light' fontWeight='600' sx={{ '.Explore:hover &': { opacity: '0.7' } }}>
+                            <Text color='color.light' fontSize='14px' fontWeight='600' sx={{ '.Explore:hover &': { opacity: '0.7' } }}>
                                 Explore
                             </Text>
                         </Box>

@@ -1,7 +1,5 @@
-import { Box, Heading, Text, Image, Icon, useMediaQuery, Grid, GridItem, useMediaQuerry } from "@chakra-ui/react"
+import { Box, Heading, Text, Image, Icon, useMediaQuery } from "@chakra-ui/react"
 import Pfp from '../../images/pfp.png'
-
-
 
 const HeaderPc = () => {
 
@@ -11,9 +9,9 @@ const HeaderPc = () => {
         <>
             <Box colSpan={isLargerThan768 ? '1' : '4'}>
                 <Box position='relative'>
-                    <Image position='absolute' top='-25px' src={Pfp} borderRadius='full' border='1px solid rgba(255, 255, 255, 0.3)' />
+                    <Image position='absolute' bg='color.dark' top='-25px' src={Pfp} borderRadius='full' border='2px solid rgba(255, 255, 255, 0.1)' />
                 </Box>
-                <Box position='relative' top='20vw' w='100%'>
+                <Box position='relative' top='270px'>
                     <Box p='16px 0'>
                         <Heading color='rgba(255, 255, 255, 0.7)' fontSize='1.65rem' fontWeight='500'>
                             João Vítor Sberse
