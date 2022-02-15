@@ -21,10 +21,10 @@ const HeaderPc = () => {
                         </Text>
                     </Box>
                     <Box m='7px 0 20px 0'>
-                        <Text m='0 0 15px 0' color='rgba(255, 255, 255, 0.8)'>4:13</Text>
-                        <Box display='flex' justifyContent='center' alignItems='center' bg='#1f242b' p='5px 16px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
-                            <Text color='rgba(255, 255, 255, 0.8)' S fontWeight='600' fontSize='0.8rem'>Edit Profile</Text>
+                        <Box m='0 0 15px 0'  display='flex' _hover={{borderColor: 'rgb(239, 239, 239)', bg: 'rgb(59, 59, 59)'}} justifyContent='center' alignItems='center' bg='#1f242b' p='5px 16px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
+                            <Text color='rgba(255, 255, 255, 0.8)' S fontWeight='600' fontSize='0.8rem'>Follow</Text>
                         </Box>
+                        <Text color='rgba(255, 255, 255, 0.8)'>4:13</Text>
                     </Box>
                     <Box display='flex' alignItems='center' >
                         <Box display='flex' alignItems='self-end'>
