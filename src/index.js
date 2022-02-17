@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react'
 import { theme } from './style/theme.js'
+import { ScreenProvider } from './hooks/useScreen';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
-      <App />
-      
+      <ScreenProvider>
+        <App />
+      </ScreenProvider>
     </ChakraProvider>
   </React.StrictMode>,
   document.getElementById('root')
