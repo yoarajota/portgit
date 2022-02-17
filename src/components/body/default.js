@@ -7,7 +7,7 @@ const Default = () => {
         <Box border='1px solid rgba(255, 255, 255, 0.1)' borderRadius='6px' p='24px'>
             <Box display='flex' justifyContent='space-between'>
                 <Box h='36px'>
-                    <Text color='rgba(255, 255, 255, 0.7)' fontSize='12px' fontFamily='ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important'>yoarajota / REAME.md</Text>
+                    <Text color='rgba(255, 255, 255, 0.7)' fontSize='0.75rem' fontFamily='ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important'>yoarajota / REAME.md</Text>
                 </Box>
                 <Box>
                     <Icon fill='color.light' viewBox="-2 -1 20 18" boxSize={5} _hover={{fill: '#58a6ff'}}>
@@ -16,7 +16,7 @@ const Default = () => {
                 </Box>
             </Box>
             <Box>
-                <Heading align="center" fontSize='23.8px' color='rgba(255, 255, 255, 0.8)'>yoarajota</Heading>
+                <Heading align="center" fontSize='1.5rem' color='rgba(255, 255, 255, 0.8)'>yoarajota</Heading>
                 <Divider borderColor='rgba(255, 255, 255, 0.4)' p='8.6px 0 0 0' m='0 0 16px 0' />
                 <Box align="center">
                     <Image src={yi2} width="200px" />
