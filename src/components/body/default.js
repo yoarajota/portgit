@@ -16,18 +16,18 @@ const Default = () => {
                 </Box>
             </Box>
             <Box>
-                <Heading align="center" fontSize='1.5rem' color='rgba(255, 255, 255, 0.8)'>yoarajota</Heading>
-                <Divider borderColor='rgba(255, 255, 255, 0.4)' p='8.6px 0 0 0' m='0 0 16px 0' />
+                <Heading align="center" fontSize='1.5rem' color='rgba(255, 255, 255, 0.8)' cursor='default'>yoarajota</Heading>
+                <Divider borderColor='color.border' p='8.6px 0 0 0' m='0 0 16px 0' />
                 <Box align="center">
                     <Image src={yi2} width="200px" />
                 </Box>
-                <Divider borderColor='rgba(255, 255, 255, 0.4)' p='0 0 6.3px 0' m='0 0 16px 0' />
+                <Divider borderColor='color.border' p='0 0 6.3px 0' m='0 0 16px 0' />
                 <Box align="center">
-                    <Link href="https://last.fm/user/yoarajota" target="_blank"><Image src="https://image.flaticon.com/icons/png/512/143/143664.png" width="40px" /></Link>
+                    <Link href="https://last.fm/user/yoarajota" target="_blank"><Image src="https://image.flaticon.com/icons/png/512/143/143664.png" w="40px" /></Link>
                 </Box>
 
-                <Divider borderColor='rgba(255, 255, 255, 0.4)' p='0 0 6.3px 0' m='24px 0 16px 0' />
-                <Divider borderColor='rgba(255, 255, 255, 0.4)' p='0 0 6.3px 0' m='24px 0 16px 0' />
+                <Divider borderColor='color.border' p='0 0 6.3px 0' m='24px 0 16px 0' />
+                <Divider borderColor='color.border' p='0 0 6.3px 0' m='24px 0 16px 0' />
                 <Box align="right">
                     <Image src={yi1} width="130px" />
                     <Box display='flex' justifyContent='right'>

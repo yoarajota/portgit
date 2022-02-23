@@ -48,8 +48,8 @@ const Headermobo = () => {
                         <Text fontWeight='300' fontSize='0.9rem' color='rgba(255, 255, 255, 0.4)'>following</Text>
                     </Box>
                 </Box>
-                    <Box m='15px 0' display='flex' justifyContent='center' alignItems='center' bg='#1f242b' p='5px 16px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
-                        <Text color='rgba(255, 255, 255, 0.8)' S fontWeight='600' fontSize='0.8rem'>Follow</Text>
+                    <Box m='15px 0' display='flex' justifyContent='center' _hover={{borderColor: 'rgb(239, 239, 239)', bg: 'rgb(59, 59, 59)', cursor: 'pointer'}} alignItems='center' bg='#1f242b' p='5px 16px' border='1px solid rgba(255, 255, 255, 0.2)' borderRadius='5px'>
+                        <Text color='rgba(255, 255, 255, 0.8)' fontWeight='600' fontSize='0.8rem'>Follow</Text>
                     </Box>
             </Box>
             <Box w='100%'>
