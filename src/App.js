@@ -13,6 +13,7 @@ function App() {
   const [isLargerThan544] = useMediaQuery('(min-width: 544px)')
   
   const [bgColor, setBgColor] = useState('#161b22')
+
   useEffect(() => {
     if (isLargerThan544) {
       setBgColor('#0d1117')

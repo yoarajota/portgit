@@ -12,8 +12,8 @@ const Packages = () => {
         <Box w='100%'>
             <Box align='center'>
                 <Icon>  </Icon>
-                <Heading fontSize='2rem' m='0 0 8px' color='color.light2'>  Get started with GitHub Packages </Heading>
-                <Text m='0 0 40px' color='color.gray'> Safely publish packages, store your packages alongside your code, and share your packages privately with your team. </Text>
+                <Heading fontSize='2rem' m='0 0 8px' color='color.light2'> Know the technologies that I work with</Heading>
+                <Text m='0 0 40px' color='color.gray'> List of librarys, frameworks and programming languages that I have any knowledge </Text>
                 <Heading m='0 0 10px' fontWeight='400' p='8px 0' color='color.gray' fontSize='1.25rem'> Technologies </Heading>
             </Box>
             {isLargerThan768 ? <Packages2 /> : <Packages3 />}
