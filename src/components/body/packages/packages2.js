@@ -5,7 +5,7 @@ import Html from '../../../images/icons/html.png'
 import React from '../../../images/icons/react.png'
 import Dart from '../../../images/icons/dart.png'
 import Js from '../../../images/icons/js.png'
-
+import { IoLogoReact } from 'react-icons/fa'
 
 const Packages2 = () => {
 
@@ -17,7 +17,7 @@ const Packages2 = () => {
                 <GridItem m='0 0 24px 0' p='16px 24px 24px' border='1px solid' borderColor='color.border' borderRadius='6px'>
                     <Box maxW='226px'>
                         <Box display='flex' >
-                            <Image m='auto 5px' w='20px' h='20px' src={Html}    ></Image>
+                            <IoLogoReact></IoLogoReact>
                             <Text color='color.light' fontWeight='600' fontSize='1.25rem'> HTML </Text>
                         </Box>
                         <Text fontSize='0.75rem' color='#8b949e'> Defines the meaning and structure of web content. ... HTML uses "markup" to annotate text, images, and other content for display in a Web browser. </Text>
