@@ -1,6 +1,5 @@
 
 import { Box, Heading, Icon, Text, useMediaQuery } from '@chakra-ui/react'
-import Css from '../../../images/icons/css.png'
 import Packages2 from './packages2'
 import Packages3 from './packages3'
 
